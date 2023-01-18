@@ -1,10 +1,90 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home - Notify";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- BANNER -->
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <br><br>
+            <h1 class="header center text-accent-3">Notify</h1>
+            <div class="row center">
+                <h5 class="header col s12 text-lighten-1">O seu aplicativo de Alertas</h5>
+            </div>
+            <div class="row center">
+                <a href="#" id="download-button" class="btn-large waves-effect waves-light green lighten-1">Vamos Começar</a>
+            </div>
+            <br><br>
+        </div>
+    </div>
+    <div class="parallax"><img src="Assets/img/background5.jpg" alt="Animacao um"></div>
+</div>
+
+<!-- CARDS -->
+<div class="container">
+    <div class="section">
+
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center green-text"><i class="material-icons">wifi</i></h2>
+                    <h5 class="center">Mantenha-se atualizado</h5>
+
+                    <p class="light center-align">Com o Notify você se mantem atualizado sobre seus principais interesses.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center green-text"><i class="material-icons">construction</i></h2>
+                    <h5 class="center">Customize do seu jeito</h5>
+
+                    <p class="light center-align">Aqui você pode customizar sobre o que e quando quer ser alertado, quem manda é você!</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center green-text"><i class="material-icons">done</i></h2>
+                    <h5 class="center">Pare de receber quando quiser</h5>
+
+                    <p class="light center-align">Caso não queira mais receber nossas notificações é só desligar os alertas na configuração, sem stress =).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- BANNER 2 -->
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <div class="icon-block">
+                    <h2 class="center white-text"><i class="material-icons">security</i></h2>
+                    <h5 class="center text-accent-3">Segurança</h5>
+
+                    <p class="text-accent-3">Com o Notify você não precisa se preocupar, seus dados são totalmente segurtos conosco!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax"><img src="Assets/img/background2.jpg" alt="Unsplashed background img 3"></div>
+</div>
+
+<!-- SOBRE -->
+<div class="container scrollspy" id="sobre">
+    <div class="section">
+
+        <div class="row">
+            <div class="col s12 center">
+                <h3><i class="mdi-content-send brown-text"></i></h3>
+                <h4>Sobre</h4>
+                <p class="center-align light">O Notify é um projeto open source que foi criado com o intuito de atualizar você de acordo com o que você precisa e quer, fique a vontade para contribuir com o porjeto =)</p>
+            </div>
+        </div>
+
+    </div>
 </div>
