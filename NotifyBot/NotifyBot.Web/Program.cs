@@ -1,7 +1,9 @@
-using Microsoft.AspNetCore.Identity;
+using NotifyBot.CrossCutting.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
+
+builder.Services.ApplyApiConfigurations(builder.Configuration);
 
 var app = builder.Build();
 
